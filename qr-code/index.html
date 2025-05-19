@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>QR Code Generator</title>
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  
+
+  <h2>📱 QR Code Generator</h2>
+
+  <div class="container">
+    <input type="text" id="qr-input" placeholder="Enter text or URL" />
+    <button onclick="generateQR()">Generate QR Code</button>
+    <div id="qr-result"></div>
+  </div>
+
+  <div id="social-links">
+    <a href="https://www.instagram.com/amogh.017" target="_blank" title="Instagram">
+  <img src="assets/images/instagram-new.png" alt="Instagram" />
+</a>
+<a href="https://www.linkedin.com/in/Amogh Singhal" target="_blank" title="LinkedIn">
+  <img src="assets/images/linkedin.png" alt="LinkedIn" />
+</a>
+<a href="https://github.com/Amogh017" target="_blank" title="GitHub">
+  <img src="assets/images/github.png" alt="GitHub" />
+</a>
+
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/qrcode/build/qrcode.min.js"></script>
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
